@@ -1,0 +1,75 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ html,
+ body {
+     height: 100%;
+     background: linear-gradient(to right, #57c1eb 0%, #006767 100%);
+ }
+
+ .userImg {
+     width: 35px;
+     height: 35px;
+ }
+
+ .b-superior {
+     min-height: 50px;
+     background-color: #EDEDED;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+ }
+
+#tituloMensaje{
+     font-style: italic;
+ }
+
+ .contactos {
+     min-height: 400px;
+     background-color: white;     
+     border-bottom-left-radius: 15px;
+ }
+ .contact-table{
+     height: 400px;
+     overflow-y: scroll;
+ }
+ .user-table tr:nth-child(1) {
+     text-align: center;
+ }
+
+ .green {
+     height: 8px;
+     width: 8px;
+     background-color: green;
+     border-radius: 50%;
+     display: inline-block;
+ }
+
+ .red {
+     height: 8px;
+     width: 8px;
+     background-color: red;
+     border-radius: 50%;
+     display: inline-block;
+ }
+ .area-message{
+     background-color: #e4e1de;
+     min-height: 400px;
+     border-bottom-right-radius: 15px;
+ }
+ .message-table-cont{
+     height: 380px;
+     overflow-y: auto;
+ }
+ .message-table-cont tr td:nth-child(2){
+     width: 20px;
+ }
+ #fecha{
+     color: #B9B9B9;
+ }
+td a, td a:visited, td a:link, td a:active{
+     text-decoration: none;     
+     color: black;
+ }
